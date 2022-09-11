@@ -16,12 +16,14 @@ import {
   MenuList,
   MenuItem,
   Button,
+  Divider,
 } from "@chakra-ui/react";
+import Example from "../components/Button";
 
 const Navbar = () => {
   return (
     <>
-      <Box bg="red.200">
+      <Box>
         <Grid templateColumns="repeat(3, 1fr)">
           <GridItem w="100%" h="10">
             <Flex
@@ -63,6 +65,8 @@ const Navbar = () => {
             </Flex>
           </GridItem>
         </Grid>
+        <Example />
+        <Divider />
       </Box>
     </>
   );

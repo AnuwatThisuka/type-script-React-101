@@ -17,12 +17,16 @@ import "../App.css";
 const Tablename = () => {
   return (
     <>
-      <Grid templateColumns="repeat(5, 1fr)" gap="10px" p="10px">
-        <GridItem w="100%" h="12.5rem" bg="blue.500" rounded="10px" />
-        <GridItem w="100%" h="12.5rem" bg="blue.500" rounded="10px" />
-        <GridItem w="100%" h="12.5rem" bg="blue.500" rounded="10px" />
-        <GridItem w="100%" h="12.5rem" bg="blue.500" rounded="10px" />
-        <GridItem w="100%" h="12.5rem" bg="blue.500" rounded="10px" />
+      <Grid
+        templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(5, 1fr)" }}
+        gap="15px"
+        p="15px"
+      >
+        <GridItem w="100%" h="12.5rem" bg="white" rounded="10px" shadow="lg" />
+        <GridItem w="100%" h="12.5rem" bg="white" rounded="10px" shadow="lg" />
+        <GridItem w="100%" h="12.5rem" bg="white" rounded="10px" shadow="lg" />
+        <GridItem w="100%" h="12.5rem" bg="white" rounded="10px" shadow="lg" />
+        <GridItem w="100%" h="12.5rem" bg="white" rounded="10px" shadow="lg" />
       </Grid>
       <TableContainer>
         <Table variant="simple">
