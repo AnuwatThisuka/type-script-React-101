@@ -62,10 +62,10 @@ const Navbar = () => {
                   </MenuList>
                 </Menu>
               </Box>
+              <Example />
             </Flex>
           </GridItem>
         </Grid>
-        <Example />
         <Divider />
       </Box>
     </>

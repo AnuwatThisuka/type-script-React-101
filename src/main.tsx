@@ -13,6 +13,10 @@ const customTheme = extendTheme({
         default: "yellow.500",
         _dark: "red",
       },
+      test: {
+        default: "white.500",
+        _dark: "",
+      },
     },
   },
 });
